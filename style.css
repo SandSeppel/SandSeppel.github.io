@@ -23,6 +23,12 @@ h1 {
     margin-bottom: .25em;
 }
 
+h2 {
+  padding-top: 30vh;
+  text-align: center;
+  font-size: 2.5em;
+}
+
 p {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -84,28 +90,4 @@ img {
 .center {
     justify-content: center;
     display: flex;
-}
-
-.skills-header {
-  padding-top: 30vh;
-  text-align: center;
-  font-size: 2.5em;
-}
-
-#skills {
-  display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 300px;
-  gap: 50px; /* Add spacing between cards */
-  justify-content: center; /* Center the grid horizontally */
-  align-items: start; /* Align items at the top */
-}
-.card {
-  border-radius: 18px;
-  width: 300px;
-  height: 300px;
-  background: rgb(59, 59, 59);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-  padding: 20px;
-  margin: 20px;
 }
