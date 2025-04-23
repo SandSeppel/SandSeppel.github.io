@@ -1,4 +1,4 @@
-#skills {
+#projects {
     display: grid;
     grid-template-columns: 400px 400px 400px 400px;
     gap: 20px; /* Add spacing between cards */
@@ -6,7 +6,7 @@
     align-items: start; /* Align items at the top */
 }
 
-.skill-card {
+.project-card {
     border-radius: 1em;
     backdrop-filter: blur(20px);
     border: 1px solid rgba(224, 224, 224, 0.25);
@@ -18,7 +18,7 @@
     transition: 0.3s ease;
 }
 
-.skill-card:hover {
+.project-card:hover {
     transform: scale(1.025);
     background-color: rgba(190, 190, 190, 0.25);
     box-shadow: 0 0 5px rgba(224, 224, 224, 0.25);

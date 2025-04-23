@@ -66,17 +66,17 @@
     margin: 6px 0 15px;
 }
 
-.timeline-content {
-    background-color: rgba(190, 190, 190, 0.25);
+.experience-card {
+    background-color: rgb(49, 49, 49);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(224, 224, 224, 0.25);
     padding: 30px;
     border-radius: 1em;
-    cursor: pointer;
     transition: 0.3s ease;
 }
 
-.timeline-content:hover {
+.experience-card:hover {
     transform: scale(1.025);
-    box-shadow: 0 0 10px rgba(224, 224, 224, 0.25);
+    background-color: rgba(190, 190, 190, 0.25);
+    box-shadow: 0 0 5px rgba(224, 224, 224, 0.25);
 }
