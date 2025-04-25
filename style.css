@@ -39,6 +39,19 @@ p {
     color: rgb(158, 158, 158);
 }
 
+a {
+    display: block-inline;
+    margin-bottom: 5px;
+    vertical-align: top;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    color: rgb(158, 158, 158);
+}
+
 button {
     margin: 0 auto;
 
@@ -54,10 +67,18 @@ button {
     cursor: pointer;
 }
 
-img {
+.profile-img {
   border-radius: 10em;
   width: 12em;
   height: 12em;
+}
+
+.icon {
+  filter: invert(0.75);
+
+  width: 20px;
+  height: 20px;
+  margin-left: 0.5em;
 }
 
 @keyframes textShine {
